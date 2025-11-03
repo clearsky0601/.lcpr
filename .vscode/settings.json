@@ -1,4 +1,11 @@
 {
+  "terminal.integrated.env.osx": {
+    "HOME": "/Users/tommysong"
+  },
+  "terminal.integrated.env.linux": {
+    "HOME": "/Users/tommysong"
+  },
+  "lcpr.homeDir": "/Users/tommysong",
   "files.associations": {
     "array": "cpp",
     "unordered_map": "cpp"
