@@ -1,0 +1,25 @@
+flowchart TD
+    A[开始: longestConsecutive] --> B{nums 是否为空?}
+    B -->|是| C[返回 0]
+    B -->|否| D[将 nums 转换为集合 num_set]
+    D --> E[初始化 max_length = 0]
+    E --> F[遍历集合中的每个数字 num]
+    F --> G{num - 1 是否在集合中?}
+    G -->|是| H[跳过，继续下一个数字]
+    G -->|否| I[num 是起始点<br/>初始化 current_num = num<br/>current_length = 1]
+    I --> J{current_num + 1 是否在集合中?}
+    J -->|是| K[current_num += 1<br/>current_length += 1]
+    K --> J
+    J -->|否| L[更新 max_length = max<br/>max_length, current_length]
+    L --> H
+    H --> M{是否还有数字未遍历?}
+    M -->|是| F
+    M -->|否| N[返回 max_length]
+    C --> O[结束]
+    N --> O
+
+    style A fill:#e1f5ff
+    style O fill:#ffe1f5
+    style I fill:#fff4e1
+    style L fill:#e1ffe1
+

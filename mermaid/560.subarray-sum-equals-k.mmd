@@ -1,0 +1,20 @@
+flowchart TD
+    A[开始: subarraySum] --> B["初始化 prefix_sum_count<br/>prefix_sum_count(0) = 1"]
+    B --> C["初始化 prefix_sum = 0<br/>count = 0"]
+    C --> D[遍历数组中的每个 num]
+    D --> E[更新 prefix_sum += num]
+    E --> F{prefix_sum - k 是否在<br/>prefix_sum_count 中?}
+    F -->|是| G["count += prefix_sum_count<br/>(prefix_sum - k)"]
+    F -->|否| H["更新哈希表<br/>prefix_sum_count(prefix_sum) += 1"]
+    G --> H
+    H --> I{是否还有数字未遍历?}
+    I -->|是| D
+    I -->|否| J[返回 count]
+    J --> K[结束]
+
+    style A fill:#e1f5ff
+    style K fill:#ffe1f5
+    style F fill:#fff4e1
+    style G fill:#e1ffe1
+    style B fill:#f0f0f0
+
