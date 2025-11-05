@@ -1,0 +1,55 @@
+# LCPR 项目 .gitignore
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# LeetCode 缓存和用户数据
+leetcode/cache/
+leetcode/stat.json
+leetcode/user.json
+.lcpr_data/
+plugins.json
+rating.json
+
+# IDE和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# 临时文件和备份
+*.backup.*
+_old_files/
+cache/
+*.tmp
+*.log
+
+# 脚本生成的临时文件
+*.pyc
+.pytest_cache/
+
+# 个人配置（包含敏感信息）
+# 注意：.vscode/settings.json 可能包含个人配置，但可以保留通用配置
+
+# 其他
+*.md.bak
+*.json.bak
+

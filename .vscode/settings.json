@@ -1,21 +1,137 @@
 {
-  "terminal.integrated.env.osx": {
-    "HOME": "/Users/tommysong"
+  "cSpell.enabled": false,
+  "cSpell.enableFiletypes": [],
+  "spellchecker.enabled": false,
+  "vscode-spell-checker.enabled": false,
+  "editor.quickSuggestions": {
+    "comments": false,
+    "strings": false,
+    "other": true
   },
-  "terminal.integrated.env.linux": {
-    "HOME": "/Users/tommysong"
+  "editor.suggest.showWords": false,
+  "editor.wordBasedSuggestions": "off",
+  "editor.inlineSuggest.enabled": false,
+  "editor.validate": false,
+  "editor.diagnostics": false,
+  "problems.showCurrentInStatus": false,
+  "problems.decorations.enabled": false,
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportGeneralTypeIssues": "none",
+    "reportMissingTypeStubs": "none",
+    "reportUnknownMemberType": "none",
+    "reportUnknownArgumentType": "none",
+    "reportUnknownVariableType": "none",
+    "reportUnknownParameterType": "none",
+    "reportMissingParameterType": "none",
+    "reportInvalidStringEscapeSequence": "none",
+    "reportUntypedFunctionDecorator": "none",
+    "reportUntypedClassDecorator": "none",
+    "reportUntypedBaseClass": "none",
+    "reportUntypedNamedTuple": "none",
+    "reportPrivateUsage": "none",
+    "reportConstantRedefinition": "none",
+    "reportIncompatibleMethodOverride": "none",
+    "reportIncompatibleVariableOverride": "none",
+    "reportInconsistentConstructor": "none",
+    "reportOverlappingOverload": "none",
+    "reportMissingSuperCall": "none",
+    "reportUninitializedInstanceVariable": "none",
+    "reportCallInDefaultInitializer": "none",
+    "reportUnnecessaryIsInstance": "none",
+    "reportUnnecessaryCast": "none",
+    "reportUnnecessaryComparison": "none",
+    "reportUnnecessaryContains": "none",
+    "reportAssertAlwaysTrue": "none",
+    "reportSelfClsParameterName": "none",
+    "reportImplicitStringConcatenation": "none",
+    "reportUnusedCallResult": "none",
+    "reportUnusedExpression": "none",
+    "reportUnnecessaryTypeIgnoreComment": "none",
+    "reportMatchNotExhaustive": "none",
+    "reportShadowedImports": "none",
+    "reportPrivateImportUsage": "none",
+    "reportWildcardImportFromLibrary": "none",
+    "reportAbstractUsage": "none",
+    "reportArgumentType": "none",
+    "reportAssertTypeFailure": "none",
+    "reportAssignmentType": "none",
+    "reportAttributeAccessIssue": "none",
+    "reportCallIssue": "none",
+    "reportInvalidTypeVarUse": "none",
+    "reportNoReturnInFunction": "none",
+    "reportOptionalMemberAccess": "none",
+    "reportOptionalOperand": "none",
+    "reportOptionalSubscript": "none",
+    "reportTypeCommentUsage": "none",
+    "reportUnboundVariable": "none",
+    "reportUnknownLambdaType": "none",
+    "reportUnusedClass": "none",
+    "reportUnusedCoroutine": "none",
+    "reportUnusedException": "none",
+    "reportUnusedFunction": "none",
+    "reportUnusedImport": "none",
+    "reportUnusedVariable": "none"
   },
-  "lcpr.homeDir": "/Users/tommysong",
-  "files.associations": {
-    "array": "cpp",
-    "unordered_map": "cpp"
+  "python.analysis.typeCheckingMode": "off",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.stubPath": "",
+  "python.analysis.ignore": [],
+  "python.analysis.exclude": [],
+  "python.languageServer": "None",
+  "python.linting.enabled": false,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": false,
+  "python.linting.mypyEnabled": false,
+  "cSpell.ignoreRegExpList": [
+    "/.*[\\u4e00-\\u9fa5].*/",
+    "/.*[\\u3000-\\u303f\\uff00-\\uffef].*/",
+    "/#.*/",
+    "/\".*\"/",
+    "/'''.*'''/s",
+    "/\"\"\".*\"\"\"/s"
+  ],
+  "[python]": {
+    "cSpell.enabled": false,
+    "spellchecker.enabled": false,
+    "vscode-spell-checker.enabled": false,
+    "editor.quickSuggestions": {
+      "comments": false,
+      "strings": false,
+      "other": true
+    },
+    "editor.suggest.showWords": false,
+    "editor.wordBasedSuggestions": "off",
+    "editor.inlineSuggest.enabled": false,
+    "editor.codeActionsOnSave": {},
+    "editor.formatOnSave": false,
+    "editor.validate": false,
+    "editor.diagnostics": false,
+    "python.analysis.diagnosticSeverityOverrides": {
+      "reportInvalidStringEscapeSequence": "none",
+      "reportGeneralTypeIssues": "none"
+    },
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.diagnosticMode": "off"
   },
+  "[markdown]": {
+    "cSpell.enabled": true,
+    "cSpell.ignoreRegExpList": [
+      "/.*[\\u4e00-\\u9fa5\\u3000-\\u303f\\uff00-\\uffef].*/"
+    ]
+  },
+  "[jupyter]": {
+    "cSpell.enabled": true,
+    "cSpell.ignoreRegExpList": [
+      "/.*[\\u4e00-\\u9fa5\\u3000-\\u303f\\uff00-\\uffef].*/"
+    ]
+  },
+  "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.cCompilerPath": "clang",
   "C_Cpp_Runner.cppCompilerPath": "clang++",
   "C_Cpp_Runner.debuggerPath": "lldb",
   "C_Cpp_Runner.cStandard": "",
   "C_Cpp_Runner.cppStandard": "",
-  "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.useMsvc": false,
   "C_Cpp_Runner.warnings": [
     "-Wall",
@@ -66,5 +182,36 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
-  "C_Cpp_Runner.msvcSecureNoWarnings": false
+  "C_Cpp_Runner.msvcSecureNoWarnings": false,
+  "leetcode-problem-rating.defaultLanguage": "python3",
+  "leetcode-problem-rating.filePath": {
+    "default": {
+      "folder": "${language}",
+      "filename": "${id}.${kebab-case-name}"
+    },
+    "python3": {
+      "folder": "py/${id}.${kebab-case-name}",
+      "filename": "solution.py"
+    },
+    "python": {
+      "folder": "py/${id}.${kebab-case-name}",
+      "filename": "solution.py"
+    },
+    "cpp": {
+      "folder": "cpp/${id}.${kebab-case-name}",
+      "filename": "solution.cpp"
+    },
+    "java": {
+      "folder": "java/${id}.${kebab-case-name}",
+      "filename": "Solution.java"
+    },
+    "javascript": {
+      "folder": "javascript/${id}.${kebab-case-name}",
+      "filename": "solution.js"
+    },
+    "typescript": {
+      "folder": "typescript/${id}.${kebab-case-name}",
+      "filename": "solution.ts"
+    }
+  }
 }
